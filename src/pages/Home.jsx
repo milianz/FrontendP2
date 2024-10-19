@@ -98,6 +98,7 @@ const Home = () => {
           >
             Siguiente
           </button>
+          <h1>hola</h1>
         </div>
       )}
     </div>

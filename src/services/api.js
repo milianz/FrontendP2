@@ -9,7 +9,7 @@ const pokeApi = axios.create({
 });
 
 const backendApi = axios.create({
-  baseURL: 'http://localhost:3000', // Asegúrate de que este es el puerto correcto de tu backend
+  baseURL: 'http://3.17.134.51:3000/api/', // Asegúrate de que este es el puerto correcto de tu backend
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json'
